@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+
+<body>
+
+    <button data--button style="display: block;">show images</button>
+    page number: <input type="number" value='' data--input style="display: block;margin-bottom: 1rem;" />
+
+    <div data--imagesWrap></div>
+
+    <button data--buttonTasks style="display: block;margin-bottom: 1rem;">get tasks</button>
+
+    <button data--buttonCreateTask style="display: block;margin-bottom: 1rem;">create task</button>
+
+    <button data--buttonDeleteTask style="display: block;margin-bottom: 1rem;">delete task</button>
+
+    <button data--buttonUpdateTask style="display: block;">update task</button>
+
+    <ul data--taskResult></ul>
+
+    <!-- 
+<script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    <script src="service.js"></script>
+</body>
+
+</html>
